@@ -133,7 +133,7 @@ breakfast.addEventListener("click", () => {
     return value.category === "breakfast";
   });
   let data = answer.map((item) => {
-    return `<article class="menu-item">
+    return `<article class="menu-item p-3">
     <img src=${item.img} alt=${item.title} class="photo" />
     <div class="item-info">
       <header>
@@ -155,7 +155,7 @@ lunch.addEventListener("click", () => {
     return value.category === "lunch";
   });
   let data = answer.map((item) => {
-    return `<article class="menu-item">
+    return `<article class="menu-item p-3">
     <img src=${item.img} alt=${item.title} class="photo" />
     <div class="item-info">
       <header>
@@ -177,7 +177,7 @@ shakes.addEventListener("click", () => {
     return value.category === "shakes";
   });
   let data = answer.map((item) => {
-    return `<article class="menu-item">
+    return `<article class="menu-item p-3">
   <img src=${item.img} alt=${item.title} class="photo" />
   <div class="item-info">
     <header>
@@ -199,7 +199,7 @@ dinner.addEventListener("click", () => {
     return value.category === "dinner";
   });
   let data = answer.map((item) => {
-    return `<article class="menu-item">
+    return `<article class="menu-item p-3">
     <img src=${item.img} alt=${item.title} class="photo" />
     <div class="item-info">
       <header>
